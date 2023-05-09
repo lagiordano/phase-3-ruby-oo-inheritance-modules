@@ -5,3 +5,14 @@ require_relative "../lib/dancer"
 
 puts Kid.metadata
 puts Dancer.metadata
+
+
+
+angelina = Dancer.new "Angelina"
+puts angelina.twirl 
+puts angelina.jump
+
+buster = Kid.new "Buster"
+puts buster.jump 
+puts buster.take_a_bow
+
